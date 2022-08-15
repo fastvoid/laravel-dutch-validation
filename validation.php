@@ -42,6 +42,18 @@ return [
     'exists'               => 'Het geselecteerde :attribute is ongeldig.',
     'file'                 => ':attribute moet een bestand zijn.',
     'filled'               => ':attribute veld is verplicht.',
+    'gt'                   => [
+        'numeric' => 'Het :attribute veld moet groter zijn dan :value.',
+        'file'    => 'Het :attribute veld moet groter zijn dan :value kilobytes.',
+        'string'  => 'Het :attribute veld moet groter zijn dan :value tekens.',
+        'array'   => 'Het :attribute veld moet meer dan :value items bevatten.',
+    ],
+    'gte'                  => [
+        'numeric' => 'Het :attribute veld moet groter of gelijk zijn aan :value.',
+        'file'    => 'Het :attribute veld moet groter of gelijk zijn aan :value kilobytes.',
+        'string'  => 'Het :attribute veld moet groter of gelijk zijn aan :value tekens.',
+        'array'   => 'Het :attribute veld moet :value of meer items bevatten.',
+    ],
     'image'                => ':attribute dient een afbeelding te zijn.',
     'in'                   => 'Het geselecteerde :attribute is ongeldig.',
     'in_array'             => ':attribute komt niet voor in :other.',
@@ -50,6 +62,18 @@ return [
     'ipv4'                 => ':attribute dient een geldig IPv4 adres te zijn.',
     'ipv6'                 => ':attribute dient een geldig IPv6 adres te zijn..',
     'json'                 => ':attribute moet een geldige JSON string zijn.',
+    'lt'                   => [
+        'numeric' => 'Het :attribute veld moet kleiner zijn dan :value.',
+        'file'    => 'Het :attribute veld moet kleiner zijn dann :value kilobytes.',
+        'string'  => 'Het :attribute veld moet kleiner zijn dan :value tekens.',
+        'array'   => 'Het :attribute veld moet minder dan :value items bevatten.',
+    ],
+    'lte'                  => [
+        'numeric' => 'Het :attribute veld moet kleiner of gelijk zijn aan :value.',
+        'file'    => 'Het :attribute veld moet kleiner of gelijk zijn aan :value kilobytes.',
+        'string'  => 'Het :attribute veld moet kleiner of gelijk zijn aan :value tekens.',
+        'array'   => 'Het :attribute veld mag maximaal :value items bevatten.',
+    ],
     'max'                  => [
         'numeric' => ':attribute mag niet groter zijn dan :max.',
         'file'    => ':attribute mag niet groter zijn dan :max kilobytes.',
@@ -65,6 +89,7 @@ return [
         'array'   => ':attribute dient minimaal :min items te bevatten.',
     ],
     'not_in'               => 'Het geselecteerde :attribute is ongeldig.',
+    'not_regex'            => 'Het :attribute format is ongeldig.',
     'numeric'              => 'Het :attribute dient een nummer te zijn.',
     'present'              => 'Het :attribute dient aanwezig te zijn.',
     'regex'                => 'Het :attribute formaat is ongeldig.',
@@ -94,7 +119,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Here you may specify custom validation messages for attributes using the
-    | convention 'attribute.rule' to name the lines. This makes it quick to
+    | convention "attribute.rule" to name the lines. This makes it quick to
     | specify a specific custom language line for a given attribute rule.
     |
     */
@@ -112,7 +137,7 @@ return [
     |
     | The following language lines are used to swap attribute place-holders
     | with something more reader friendly such as E-Mail Address instead
-    | of 'email'. This simply helps us make messages a little cleaner.
+    | of "email". This simply helps us make messages a little cleaner.
     |
     */
 
