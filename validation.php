@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     /*
     |--------------------------------------------------------------------------
     | Validation Language Lines
@@ -89,6 +90,7 @@ return [
         'string'  => ':Attribute dient minimaal :min karakters te bevatten.',
         'array'   => ':Attribute dient minimaal :min items te bevatten.',
     ],
+    'multiple_of'          => 'Het :attribute moet een veelvoud zijn van :value.',
     'not_in'               => 'Geselecteerde :attribute is ongeldig.',
     'not_regex'            => 'Het :attribute format is ongeldig.',
     'numeric'              => ':Attribute dient een nummer te zijn.',
@@ -146,4 +148,5 @@ return [
     */
 
     'attributes' => [],
+
 ];
