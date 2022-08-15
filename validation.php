@@ -12,14 +12,17 @@ return [
     | as the size rules. Feel free to tweak each of these messages here.
     |
     */
+
     "accepted"             => ":attribute dient te worden geaccepteerd.",
     "active_url"           => ":attribute is geen geldige URL.",
     "after"                => ":attribute dient een datum te zijn na :date.",
+    "after_or_equal"       => ':attribute moet een datum zijn na of gelijk aan :date.',
     "alpha"                => ":attribute mag alleen letters bevatten.",
     "alpha_dash"           => ":attribute mag alleen letters, nummers, and strepen bevatten.",
     "alpha_num"            => ":attribute mag alleen letters en nummers bevatten.",
     "array"                => ":attribute moet een array zijn.",
     "before"               => ":attribute moet een datum zijn eerder dan :date.",
+    "before_or_equal"      => ':attribute moet een datum zijn voor of gelijk aan :date.',
     "between"              => [
         "numeric" => ":attribute moet tussen :min en :max liggen.",
         "file"    => ":attribute moet tussen :min en :max kilobytes zijn.",
@@ -51,13 +54,13 @@ return [
         "string"  => ":attribute mag niet groter zijn dan :max karakters.",
         "array"   => ":attribute mag niet meer dan :max items bevatten.",
     ],
-    "mimes"                => ":attribute dient een bestand te zijn van het type: :values.",
-    "mimetypes"            => ":attribute dient een bestand te zijn van het type: :values.",
-    "min"                  => [
-        "numeric" => ":attribute dient minimaal :min te zijn.",
-        "file"    => ":attribute dient minimaal :min kilobytes te zijn.",
-        "string"  => ":attribute dient minimaal :min karakters te bevatten.",
-        "array"   => ":attribute dient minimaal :min items te bevatten.",
+    'mimes'                => ':attribute moet een bestand zijn van type: :values.',
+    'mimetypes'            => ':attribute moet een bestand zijn van type: :values.',
+    'min'                  => [
+        'numeric' => 'De minimale waarde van :attribute is :min.',
+        'file'    => ':attribute moet minimaal :min kilobytes groot zijn.',
+        'string'  => ':attribute moet minimaal :min tekens bevatten.',
+        'array'   => ':attribute moet minimaal :min items bevatten.',
     ],
     "not_in"               => "Het geselecteerde :attribute is ongeldig.",
     "numeric"              => "Het :attribute dient een nummer te zijn.",
