@@ -22,6 +22,7 @@ return [
     'alpha_dash' => ':Attribute mag alleen letters, nummers, en strepen bevatten.',
     'alpha_num' => ':Attribute mag alleen letters en nummers bevatten.',
     'array' => ':Attribute moet een array zijn.',
+    'ascii' => ':Attribute mag alleen standaard karakters en cijfers bevatten',
     'before' => ':Attribute moet een datum zijn eerder dan :date.',
     'before_or_equal' => ':Attribute moet een datum zijn voor of gelijk aan :date.',
     'between' => [
@@ -36,6 +37,7 @@ return [
     'date' => ':Attribute is geen geldige datum.',
     'date_equals' => ':Attribute moet een datum zijn gelijk aan :date.',
     'date_format' => ':Attribute komt niet overeen met het formaat :format.',
+    'decimal' => ':Attribute moet :decimal decimalen bevatten.',
     'declined' => ':Attribute dient te worden afgewezen.',
     'declined_if' => ':Attribute dient te worden afgewezen wanneer :other :value is.',
     'different' => ':Attribute en :other dienen verschillend te zijn.',
@@ -101,6 +103,11 @@ return [
         'string' => ':Attribute dient minimaal :min karakters te bevatten.',
     ],
     'min_digits' => 'Het :attribuut moet minstens :min cijfers bevatten.',
+    'missing' => ':Attribute mag niet worden meegestuurd',
+    'missing_if' => ':Attribute mag niet worden meegestuurd wanneer :other :value is.',
+    'missing_unless' => ':Attribute mag niet worden meegestuurd behalve als :other :value is.',
+    'missing_with' => ':Attribute mag niet worden meegestuurd wanneer :values bestaat.',
+    'missing_with_all' => ':Attribute mag niet worden meegestuurd wanneer :values meegestuurd wordt.',
     'multiple_of' => 'Het :attribute moet een veelvoud zijn van :value.',
     'not_in' => 'Geselecteerde :attribute is ongeldig.',
     'not_regex' => 'Het :attribute format is ongeldig.',
@@ -141,6 +148,7 @@ return [
     'uploaded' => 'Het uploaden van :attribute is mislukt.',
     'uppercase' => ':Attribuut moet in hoofdletters zijn.',
     'url' => ':Attribute formaat is ongeldig.',
+    'ulid' => ':Attribute moet een valide ULID zijn.',
     'uuid' => ':Attribute moet een valide UUID zijn.',
 
     /*
@@ -172,4 +180,5 @@ return [
     */
 
     'attributes' => [],
+
 ];
