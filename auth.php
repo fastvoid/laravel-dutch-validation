@@ -15,6 +15,6 @@ return [
 
     'failed' => 'Deze gegevens komen niet overeen met onze gegevens.',
     'password' => 'Het opgegeven wachtwoord is onjuist.',
-    'throttle' => 'Te veel login pogingen. Probeer a.u.b. opnieuw in :seconds seconden.',
+    'throttle' => 'Te veel inlogpogingen. Probeer het a.u.b. opnieuw over :seconds seconden.',
 
 ];
