@@ -117,7 +117,7 @@ return [
         'mixed' => ':Attribute moet minstens één hoofdletter en één kleine letter bevatten.',
         'numbers' => ':Attribute moet minstens één nummer bevatten.',
         'symbols' => ':Attribute moet minstens één symbool bevatten.',
-        'uncompromised' => 'Attribute komt voor in een data lek. Kies een ander :attribute.',
+        'uncompromised' => ':Attribute komt voor in een data lek. Kies een ander :attribute.',
     ],
     'present' => ':Attribute dient aanwezig te zijn.',
     'prohibited' => 'Het :attribute veld is niet toegestaan.',
