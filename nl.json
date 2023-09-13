@@ -10,5 +10,7 @@
   "If you did not request a password reset, no further action is required.": "Heb je niet aangevraagd om een nieuw wachtwoord in te stellen, dan hoef je niets te doen.",
   "Verify Email Address": "E-mailadres bevestigen",
   "Please click the button below to verify your email address.": "Klik op onderstaande knop om je e-mailadres te bevestigen.",
-  "If you did not create an account, no further action is required.": "Als je geen account hebt aangemaakt, dan hoef je niets te doen."
+  "If you did not create an account, no further action is required.": "Als je geen account hebt aangemaakt, dan hoef je niets te doen.",
+  "(and :count more error)": "(en :count andere fout)",
+  "(and :count more errors)": "(en :count andere fouten)"
 }
